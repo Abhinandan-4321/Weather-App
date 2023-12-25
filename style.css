@@ -78,7 +78,7 @@ body{
 }
 
 #city{
-    font-size: 3rem;
+    font-size: 2.5vw;
 }
 
 #temperature{
@@ -115,4 +115,74 @@ this{
     cursor: pointer;
     transition-duration: 0.5s;
     scale: 1.1; 
+}
+
+
+@media (max-width:1024px){
+    #weather-page{
+        height: 80vw;
+    }
+    #weather-container{
+        height: 60vw;
+    }
+}
+@media (max-width:700px){
+    #weather-page{
+        height: 100vw;
+    }
+    #weather-container{
+        height: 90vw;
+    }
+}
+
+@media (max-width:600px){
+    #weather-page{
+        height: 110vw;
+    }
+    #weather-container{
+        height: 110vw;
+    }
+    #city{
+        font-size: 5.5vw;
+    }
+    #temperature{
+        font-size: 8vw;
+    }
+}
+
+
+@media (max-width:450px){
+    #weather-page{
+        height: 130vw;
+    }
+    #weather-container{
+        height: 110vw;
+    }
+    #temperature{
+        font-size: 12vw;
+    }
+    #search-again-btn {
+        height: 11vw;
+        width: 40vw;
+    }
+}
+
+@media (max-width:400px){
+    #weather-page{
+        height: 150vw;
+    }
+    #weather-container{
+        height: 130vw;
+        width: 80vw;
+    }
+    #city{
+        font-size: 7.5vw;
+    }
+    #temperature{
+        font-size: 12vw;
+    }
+    #search-again-btn {
+        height: 11vw;
+        width: 40vw;
+    }
 }
