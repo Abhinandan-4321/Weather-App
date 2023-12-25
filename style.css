@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Londrina+Solid:wght@300&family=Love+Ya+Like+A+Sister&family=Oswald&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+}
+
+#start-page-container{
+    height: 45.2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+#start-page{
+    height: 21vw;
+    width: 33vw;
+    background-color: #d8d8c74a;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#input{
+    height: 3vw;
+    width: 15vw;
+    border-radius: 68px;
+    border: none;
+    padding: 1vw;
+    font-size: 20px
+    /* box-shadow: 0 0 10px rgba(255, 0, 0, 0.8); */
+}
+
+#search-btn, #search-btn-new{
+    height: 2vw;
+    width: 2vw;
+    margin-top: 1vw;
+}
+
+#search-box{
+    display: flex; 
+    justify-content: space-between;
+    width: 21vw;
+}
+
+
+/* weather box page */
+
+#weather-page{
+    height: 45.2vw;
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+#weather-container{
+    height: 40dvw;
+    width: 47dvw;
+    background-color: #d8d8c74a;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#city{
+    font-size: 3rem;
+}
+
+#temperature{
+    font-size: 7rem;
+}
+
+#humidity{
+    font-size: 3.5rem;
+}
+#description{
+    font-size: 2rem;
+}
+
+this{
+    font-size: 0.8rem;
+    color: white;
+}
+
+#search-again-btn{
+    background-color: #ffffffe3;
+    border-radius: 22px;
+    font-size: 21px;
+    height: 3vw;
+    width: 14vw;
+    text-align: center;
+}
+
+#search-again-btn:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    scale: 1.1;
+}
+#search-btn:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    scale: 1.1; 
+}

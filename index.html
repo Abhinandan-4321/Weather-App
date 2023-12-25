@@ -9,6 +9,43 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <script src="weather.js"></script>
+  <div id="start-page-container">
+    <div style="padding-bottom: 4vw; font-size: 4vw;" >Check Weather in Your city</div>
+    <div id="start-page">
+
+      <div id="search-box">
+        <div><input type="text" id="input" required placeholder="Enter Place Here..."></div>
+        <div style="background-color: white; height: 3.5vw; width: 3.5vw; border-radius: 50px; text-align: center; margin-top: 0.5vw;" id="search-icon-div"><img src="assets/magnifier.png" id="search-btn"></div>
+      </div>
+
+    </div>    
+  </div>
+
+  <div id="weather-page">
+      <div id="weather-container"> 
+        <div id="city"> <span id="cityName">New York</span>, <span id="code">USA</span></div>
+        <this>City Name</this>
+
+        <div id="date"><span id="date-number">24</span> <span id="date-month">Oct</span>, <span id="date-year">2022</span></div>
+        <this>Date</this>
+
+        <div id="temperature"><span id="temp-degree">18</span> ℃</div>
+        <this>Temperature</this>
+
+        <div id="humidity"><span id="humidPercend">20</span> %</div>
+        <this>Humidity</this>
+
+        <div id="description">Clear Sky</div>
+        <this>Description</this>
+        <br>
+        <div id="search-again-btn">
+          Search Again
+        </div> 
+
+      </div>
+  </div>
+
+
+<script src="weather.js"></script>
 </body>
 </html>
