@@ -4,7 +4,7 @@
 const API_Key = "449ebf6df2fcf6aba713fbac65092246";
 
 function fetchTheCityName(city) {
-  fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${API_Key}`)
+  fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${API_Key}`)
     .then((response) => {
       return response.json();
     })
